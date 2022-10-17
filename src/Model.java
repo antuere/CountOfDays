@@ -36,7 +36,7 @@ public class Model {
     }
 
     public String countPeriodOfLearn() {
-        LocalDate dateStart = LocalDate.of(2022, 5, 6);
+        LocalDate dateStart = LocalDate.of(2022, 4, 6);
         LocalDate now = LocalDate.now();
         Period period = Period.between(dateStart, now);
 
